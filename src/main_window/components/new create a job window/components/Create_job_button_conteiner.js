@@ -18,14 +18,14 @@ export default class Create_job_button_container extends Component {
         const address = document.getElementById('address').value;
          
 
-        if(!Chek_Field_Value(first_name) || !Chek_Field_Value(second_name)){
+        if(!Chek_Field_Value(first_name) || !Chek_Field_Value(second_name)||!Chek_Field_Value(address)){
             if(address === ''){
                 document.getElementById('addr').requestSubmit();
             }
             return;
         };
 
-        console.log('ok');
+        
 
 
         const company = 'fopkostash';
