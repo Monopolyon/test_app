@@ -1,5 +1,5 @@
 function Chek_Field_Value(value){    
-    if(value !== '' && value !== null && value !== undefined && typeof(value) === 'string'){
+    if(value !== '' && value !== null && value !== undefined){
         return true
     };
     return false;

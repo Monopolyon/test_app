@@ -16,13 +16,16 @@ export default class Create_job_button_container extends Component {
         const first_name = document.getElementById('first_name').value;
         const second_name = document.getElementById('last_name').value;
         const address = document.getElementById('address').value;
-        const email = document.getElementById('addr').requestSubmit();
+         
 
-        if(!Chek_Field_Value(first_name) || !Chek_Field_Value(second_name) || !Chek_Field_Value(address)){
-
+        if(!Chek_Field_Value(first_name) || !Chek_Field_Value(second_name)){
+            if(address === ''){
+                document.getElementById('addr').requestSubmit();
+            }
             return;
         };
 
+        console.log('ok');
 
 
         const company = 'fopkostash';

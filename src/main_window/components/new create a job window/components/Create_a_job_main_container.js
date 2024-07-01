@@ -54,7 +54,6 @@ export default class Create_a_job_main_container extends Component {
                     <div className='client_details_main_container'>                    
                         <Container_header text ='Service location' />
                         <form id='addr'>
-
                             <input className='standart_line addres' type='text' placeholder='Address' id='address' required></input>
                         </form>
                         <input className='standart_line' type='text' placeholder='City'></input>                    
