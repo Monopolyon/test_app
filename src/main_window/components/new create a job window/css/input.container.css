@@ -1,0 +1,53 @@
+.input_container{
+    
+    width: 45%;
+    background-color: white;
+    height: 90%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0px 2px 5px rgb(0, 0, 0);
+}
+
+.client_details_main_container{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    height: calc(100% - 10px);    
+}
+
+.half_line{
+    margin-top: 20px;       
+    width: 45%;
+}
+
+.half_right{
+    position: absolute;
+    right: 0px;
+}
+
+.standart_line{
+    min-height: 40px;
+    margin-top: 20px;        
+    width: 100%;  
+    line-height: 40px;
+}
+
+.fl{
+    display: flex;
+    flex-direction: column;
+}
+
+.job_type_description{
+    margin-top: 20px;    
+    height: 100%;
+}
+
+select{
+    color: black;
+}
+
+.addres:focus, .addres:focus{
+    outline: red;
+    border: 3px solid red;
+  }

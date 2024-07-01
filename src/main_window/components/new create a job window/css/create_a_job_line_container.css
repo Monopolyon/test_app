@@ -1,0 +1,9 @@
+.create_job_line_container{
+    width: 100%;  
+    height: 50%;
+    margin: 0 auto;
+    background-color: #F9F9FB; 
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}

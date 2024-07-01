@@ -1,0 +1,28 @@
+.create_job_button_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create_job_button{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#create_job_btn{
+    margin-right: 10px;
+    background-color: yellow;
+}
+
+#save_info_btn{
+    margin-left: 10px;
+    background-color: grey;
+}
+
+
